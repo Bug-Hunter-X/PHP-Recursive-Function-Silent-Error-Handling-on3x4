@@ -1,0 +1,3 @@
+# PHP Recursive Function Silent Error Handling
+
+This repository demonstrates a potential issue with error handling in a recursive PHP function.  The `processData` function recursively processes an array, replacing instances of 'error' with 'warning'. While functional, this method silently handles errors, masking potential issues during development and deployment.  The improved version showcases best practices for explicit error handling and exception management for better debugging and code robustness.
